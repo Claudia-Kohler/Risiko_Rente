@@ -2,7 +2,7 @@ library(tidyverse)
 library(readxl)
 library(data.table)
 
-setwd("C:/Users/Veronika/Desktop/Korrektur/xlsx")
+setwd(<Hier den Pfad zur working directory einfügen>)
 
 #Jedem Bundeslanddatensatz wird eine Rohvariable zugewiesen
 Roh_Bund <- read_excel("A1.1.0 DE_Bund.xlsx")

@@ -1,11 +1,11 @@
-# Datenaufbereitung "Risiko Rente" (Onlineprojekt "Alter!", ifp München)
+# Datenaufbereitung "Risiko Rente"&nbsp;											(Online-Dossier "Alter!", ifp München)
 
-Für das Abschlussprojekt am Institut zur Förderung Publizistischen Nachwuchses (ifp) haben die Volontäre des Jahrgangs 2017 das Online-Dossier "Alter! Altwerden in der Leistungsgesellschaft" erarbeitet. Wir, das Autorenteam Janosch Beyer und Claudia Kohler, erzählen darin eine datengetriebene Geschichte über das "Risiko Rente". Hier könnt ihr Akquise und Aufbereitung der Daten nachvollziehen.
+Für das Abschlussprojekt an der katholischen Journalistenschule ifp haben die Volontäre des Jahrgangs 2017 das Online-Dossier "Alter!" erarbeitet. Wir, das Autorenteam Janosch Beyer und Claudia Kohler, erzählen darin eine datengetriebene Geschichte über das "Risiko Rente". Hier könnt ihr Akquise und Aufbereitung der Daten nachvollziehen.
 
 
 ## Daten
 
-Folgende Datensätze sind die Grundlage unserers Artikels und der interaktiven Grafiken. Sie liegen im Ordner Data unter Rohdaten.
+Folgende Daten sind die Grundlage unserers Artikels und der interaktiven Grafiken. Sie liegen im Ordner Rohdaten.
 + Deutsches Zentrum für Altersfragen > Statistisches Informationssystem GeroStat > Warmmiete und Mietbelastung > 2014
 
 	© GeroStat - Deutsches Zentrum für Altersfragen, Berlin. DOI 10.5156/GEROSTAT - Deutscher Alterssurvey (DEAS) - 1996, 2002, 2008, 2014
@@ -16,18 +16,14 @@ Folgende Datensätze sind die Grundlage unserers Artikels und der interaktiven Gr
 
 	https://statistik-rente.de/drv/extern/publikationen/aktuelle_statistikbaende/documents/Rente_2017.pdf
 
-+ Statistische Ämter des Bundes und der Länder > Mikrozensus > Sonderauswertungen zu armutsgefährdeten Personen in Rentner- bzw. Pensionärshaushalten in Deutschland (angefordert von Matthias Birkwald und Gerd Bosbach)
++ Statistische Ämter des Bundes und der Länder > Mikrozensus 2017 > Sonderauswertungen zu armutsgefährdeten Personen in Rentner- bzw. Pensionärshaushalten in Deutschland (angefordert von Matthias Birkwald und Gerd Bosbach)
 
 	Dieser Datensatz wurden uns vom Statistischen Bundesamt auf Anfrage bereitgestellt.
 
-+ Statistische Ämter des Bundes und der Länder > Mikrozensus > Tabelle A.5.1 Struktur der einkommensarmen Bevölkerung 2017 (Bundesmedian)
++ Statistische Ämter des Bundes und der Länder > Mikrozensus 2017 > Armutsgefährdungsquoten nach soziodemografischen Merkmalen
 
-	http://www.amtliche-sozialberichterstattung.de/A5struktur.html
-
+	http://www.amtliche-sozialberichterstattung.de/A1armutsgefaehrdungsquoten.html
+	
 ## Aufbereitung
 
-Die Rohdatern wurden von uns mit der Programmiersprache R in der IDE R-Studio bereinigt. Nur die abzubildenden Daten wurden extrahiert. Zahlenwerte wurden von Zeichen befreit und die Werte so angeordnet, dass sie optimal visualisiert werden können. Für jede Bereinigung wurde ein eigenes R-Skript erstellt, über das jeder Schritt nachvollzogen und wiederholt werden kann. Die Skripte finden sich im Ordner R, die bereinigten Datensätze im Ordner Data unter Clean.
-
-## Visualisierung
- Jeder Grafik liegt ein bereinigter Datensatz zugrunde.
-
+Die Rohdaten wurden von uns mit der Programmiersprache R in der IDE R-Studio bereinigt. Unter anderem wurden Datenbereiche selektiert, Zahlenwerte von Zeichen befreit und die Werte so angeordnet, dass sie optimal visualisiert werden können. Für jede Bereinigung wurde ein Skript erstellt - so können die einzelnen Schritte nachvollzogen und reproduziert werden. Die Skripte liegen auf der obersten Ebene des Repositorys, die bereinigten Datensätze im Ordner Clean. Jeder Grafik unseres Artikels liegt einer dieser bereinigten Datensätze zugrunde.
