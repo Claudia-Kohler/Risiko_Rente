@@ -1,4 +1,4 @@
-# Datenaufbereitung "Risiko Rente"&nbsp;"											(Online-Dossier "Alter!", ifp München)
+# Datenaufbereitung "Risiko Rente"&nbsp;											(Online-Dossier "Alter!", ifp München)
 
 Für das Abschlussprojekt an der katholischen Journalistenschule ifp haben die Volontäre des Jahrgangs 2017 das Online-Dossier "Alter!" erarbeitet. Wir, das Autorenteam Janosch Beyer und Claudia Kohler, erzählen darin eine datengetriebene Geschichte über das "Risiko Rente". Hier könnt ihr Akquise und Aufbereitung der Daten nachvollziehen.
 
